@@ -1,0 +1,55 @@
+body {
+    background: coral;
+}
+#form {
+    font-size: 20px;
+}
+div.main {
+    text-align: center;
+}
+#pass {
+    padding-left: 10px;
+}
+
+#heading {
+
+}
+#greet {
+
+}
+#wrong {
+
+}
+#check{
+    padding: 1px 20px;
+    font-size: 20px;
+    color: red;
+}
+div#new {
+
+}
+@media all and (min-width:340px) and (max-width:460px){
+    #pass{
+        padding-left: 10px;
+        width: 254px;
+        height: 29px;
+    }
+    #form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    #wrong {
+        font-size: 24px;
+    }
+    label {
+        font-size: 25px;
+    }
+    body{
+        height: 80vh;
+    }
+    #head{
+        font-size: 21px;
+    }
+}
